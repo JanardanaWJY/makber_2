@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Akshar', sans-serif;
+    width: 100%;
+}
+header{
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    border-bottom: 5px solid #d14613;
+}
+header .header-container{
+    max-width: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+header .header-container .header-left{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+header .header-container .header-left span{
+    color: #d14613;
+}
+header .header-container .header-right{
+    display: flex;
+}
+header .header-container .header-right a{
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.9s;
+}
+header .header-container .header-right a:hover{
+    background-color: #d14613;
+    color: white;
+}
+
+
+.recipe{
+    max-width: 90%;
+    width: 90%;
+    margin: 80px auto 5px auto;
+}
+.recipe h1, .manner h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(209, 70, 19, 0.3);
+}
+.recipe li, .manner li{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.manner{
+    max-width: 90%;
+    width: 90%;
+    margin: 80px auto 60px auto;
+}
+
+footer{
+    background-color: #d14613;
+}
+footer .footer-container{
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+footer .footer-container .kontak{
+    text-align: center;
+    margin-bottom: 70px;
+}
+footer .footer-container .kontak h1{
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+footer .footer-container .kontak a{
+    display: inline-flex;
+    text-decoration: none;
+}
+footer .footer-container .kontak a p{
+    display: inline-block;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+footer .footer-container .kontak a img{
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+}
+footer .footer-container .kontak .facebook, .twitter{
+    margin-right: 10px;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+footer p span{
+    color: white;
+}
